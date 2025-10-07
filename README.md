@@ -26,7 +26,7 @@
 
 Блок-схема:
 
-<img width="401" height="861" alt="Lab3 - chema drawio" src="https://github.com/user-attachments/assets/7c17c472-4569-4384-99af-6a9a5ef411c0" />
+<img width="401" height="861" alt="Lab3(edit) drawio" src="https://github.com/user-attachments/assets/14abff07-43e7-458a-a6f6-c3c7bd7dc700" />
 
 ### 2. Реализация программы
 
