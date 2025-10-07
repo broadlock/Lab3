@@ -30,25 +30,25 @@
 
 ### 2. Реализация программы
 
+#define _CRT_SECURE_NO_WARNING 
 #include <stdio.h>
-
 #define GRAVITY 9.81
 
 int main() {
     double mass, force;
 
-    printf("Введите массу тела (в кг): ");
-    scanf_s("%lf", &mass);
+    printf(" Введите массу тела (в кг): ");
+    scanf("%lf", &mass);
 
     if (mass <= 0) {
-        printf("Ошибка: масса должна быть положительным числом!\n");
+        printf(" Ошибка: масса должна быть положительным числом!\n");
         return 1;
     }
 
     force = mass * GRAVITY;
 
-    printf("Сила тяжести для тела массой %.2f кг:\n", mass);
-    printf("F = m * g = %.2f * %.2f = %.2f Н (ньютонов)\n",
+    printf(" Сила тяжести для тела массой %.2f кг:\n", mass);
+    printf(" F = m * g = %.2f * %.2f = %.2f Н (ньютонов)\n",
         mass, GRAVITY, force);
 
     return 0;
@@ -58,6 +58,9 @@ int main() {
 Введите массу тела (в кг): 110 (вписываем значение сами)
 Сила тяжести для тела массой 110.00 кг:
 F = m * g = 110.00 * 9.81 = 1079.10 Н (ньютонов).
+
+<img width="400" height="57" alt="image" src="https://github.com/user-attachments/assets/389818fe-c179-4af5-8b01-93be14bd02a4" />
+
 
 ### 4. Информация о разработчике
 бИЦ - 251, Гаркин Алексей
